@@ -1,0 +1,312 @@
+[23:12:07] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[23:12:07] [Server thread/INFO]: Loading properties
+[23:12:07] [Server thread/INFO]: This server is running Paper version git-Paper-226 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[23:12:07] [Server thread/INFO]: Debug logging is disabled
+[23:12:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:12:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:12:08] [Server thread/INFO]: Default game type: SURVIVAL
+[23:12:08] [Server thread/INFO]: Generating keypair
+[23:12:08] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:12:08] [Server thread/INFO]: Using default channel type
+[23:12:13] [Server thread/WARN]: Plugin PlaceholderAPI v2.10.2 does not specify an api-version.
+[23:12:13] [Server thread/WARN]: Plugin GroupManager v3.1 does not specify an api-version.
+[23:12:13] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[23:12:13] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v2.0.6
+[23:12:13] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.2
+[23:12:13] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.0
+[23:12:13] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.1.0
+[23:12:13] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.1.0
+[23:12:13] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.1.0
+[23:12:13] [Server thread/INFO]: [GroupManager] Loading GroupManager v3.1
+[23:12:13] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.1.0
+[23:12:13] [Server thread/INFO]: [QuickShop] Loading QuickShop vReremake 2.4.8.4
+[23:12:13] [Server thread/INFO]: [Residence] Loading Residence v4.8.7.4
+[23:12:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:12:13] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[23:12:13] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[23:12:13] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[23:12:13] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:12:13] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[23:12:13] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[23:12:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:12:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:12:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:12:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:12:13] [Server thread/INFO]: Preparing level "world"
+[23:12:13] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[23:12:22] [Server thread/INFO]: Loaded 6 recipes
+[23:12:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:12:24] [Server thread/INFO]: View Distance: 6
+[23:12:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:12:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:12:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:12:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:12:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:12:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[23:12:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:12:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:12:24] [Server thread/INFO]: Mob Spawn Range: 8
+[23:12:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:12:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:12:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:12:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:12:24] [Server thread/INFO]: Max TNT Explosions: 100
+[23:12:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:12:24] [Server thread/INFO]: View Distance: 6
+[23:12:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:12:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:12:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:12:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:12:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:12:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[23:12:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:12:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:12:24] [Server thread/INFO]: Mob Spawn Range: 8
+[23:12:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:12:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:12:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:12:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:12:24] [Server thread/INFO]: Max TNT Explosions: 100
+[23:12:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:12:24] [Server thread/INFO]: View Distance: 6
+[23:12:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:12:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[23:12:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:12:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:12:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:12:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[23:12:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:12:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:12:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:12:24] [Server thread/INFO]: Mob Spawn Range: 8
+[23:12:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:12:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:12:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:12:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:12:24] [Server thread/INFO]: Max TNT Explosions: 100
+[23:12:24] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[23:12:24] [Server thread/INFO]: Preparing spawn area: 0%
+[23:12:25] [Server thread/INFO]: Preparing spawn area: 3%
+[23:12:25] [Server thread/INFO]: Preparing spawn area: 39%
+[23:12:28] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:28] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:28] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:28] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:28] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:28] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[23:12:29] [Server thread/INFO]: Preparing spawn area: 100%
+[23:12:29] [Server thread/INFO]: Preparing spawn area: 100%
+[23:12:30] [Server thread/INFO]: Preparing spawn area: 100%
+[23:12:30] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[23:12:30] [Server thread/INFO]: Time elapsed: 5647 ms
+[23:12:30] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[23:12:30] [Server thread/INFO]: Preparing spawn area: 0%
+[23:12:30] [Server thread/INFO]: Preparing spawn area: 94%
+[23:12:31] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[23:12:31] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[23:12:32] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[23:12:32] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:33] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:33] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[23:12:33] [Server thread/INFO]: Time elapsed: 3306 ms
+[23:12:33] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[23:12:33] [Server thread/INFO]: Preparing spawn area: 0%
+[23:12:33] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:34] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[23:12:34] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[23:12:34] [Server thread/INFO]: Time elapsed: 1136 ms
+[23:12:34] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v2.0.6
+[23:12:34] [Server thread/INFO]: 
+[23:12:34] [Server thread/INFO]:     __                      ____                                         _    _____
+[23:12:34] [Server thread/INFO]:    / /   ____ _____ _____ _/ __ \___  ____ ___  ____ _   _____  _____   | |  / /__ \
+[23:12:34] [Server thread/INFO]:   / /   / __ `/ __ `/ __ `/ /_/ / _ \/ __ `__ \/ __ \ | / / _ \/ ___/   | | / /__/ /
+[23:12:34] [Server thread/INFO]:  / /___/ /_/ / /_/ / /_/ / _, _/  __/ / / / / / /_/ / |/ /  __/ /       | |/ // __/
+[23:12:34] [Server thread/INFO]: /_____/\__,_/\__, /\__, /_/ |_|\___/_/ /_/ /_/\____/|___/\___/_/        |___//____/
+[23:12:34] [Server thread/INFO]:             /____//____/
+[23:12:34] [Server thread/INFO]: 
+[23:12:34] [Server thread/INFO]: [LaggRemover] Loaded 0 module(s)
+[23:12:34] [Server thread/INFO]: [LaggRemover] The LaggRemover AI is now active!
+[23:12:34] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[23:12:34] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.2*
+[23:12:34] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[23:12:34] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.0
+[23:12:34] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[23:12:34] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[23:12:34] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[23:12:34] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[23:12:34] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[23:12:34] [Server thread/INFO]: [Essentials] Loaded 20977 items from items.json.
+[23:12:34] [Server thread/INFO]: [Essentials] Using locale zh_CN
+[23:12:35] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[23:12:35] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[23:12:35] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[23:12:35] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[23:12:35] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.1.0
+[23:12:35] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[23:12:35] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.1.0
+[23:12:35] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.1.0
+[23:12:35] [Server thread/INFO]: [GroupManager] Enabling GroupManager v3.1*
+[23:12:38] [Server thread/INFO]: [GM+] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[23:12:38] [Server thread/INFO]: [GM+] 
+[23:12:38] [Server thread/INFO]: [GM+] YOU ARE USING OLD VERSION! (3.1)
+[23:12:38] [Server thread/INFO]: [GM+] NEW VERSION: 3.2
+[23:12:38] [Server thread/INFO]: [GM+] 
+[23:12:38] [Server thread/INFO]: [GM+] Please update plugin to the latest version!
+[23:12:38] [Server thread/INFO]: [GM+] Link: https://www.spigotmc.org/resources/40615/
+[23:12:38] [Server thread/INFO]: [GM+] 
+[23:12:38] [Server thread/INFO]: [GM+] -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[23:12:38] [Server thread/INFO]: [GM+] 
+[23:12:38] [Server thread/INFO]: [GM+] GroupManger+ [v3.1] has been enabled.
+[23:12:38] [Server thread/INFO]: [GM+] Author: HappyAreaBean
+[23:12:38] [Server thread/INFO]: [GM+] 
+[23:12:38] [Server thread/INFO]: [GM+] [INFO] World Found: world
+[23:12:38] [Server thread/INFO]: [GM+] [INFO] Superperms support enabled.
+[23:12:38] [Server thread/INFO]: [GM+] [INFO] Scheduled Data Saving is set for every 10 minutes!
+[23:12:38] [Server thread/INFO]: [GM+] [INFO] Backups will be retained for 24 hours!
+[23:12:38] [Server thread/INFO]: [GM+] [INFO] GroupManager+ v3.1 is now enabled!
+[23:12:38] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[23:12:38] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat hooked.
+[23:12:38] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.1.0
+[23:12:38] [Server thread/INFO]: [QuickShop] Enabling QuickShop vReremake 2.4.8.4
+[23:12:38] [Server thread/INFO]: [QuickShop] Quickshop Reremake
+[23:12:38] [Server thread/INFO]: [QuickShop] Developers: BukkitCommonsStudio, Netherfoam, Timtower, KaiNoMood, Ghost_chu, Mgazul, TiaraRinne
+[23:12:38] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
+[23:12:38] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
+[23:12:38] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on Minecraft version v1_14_R1
+[23:12:38] [Server thread/INFO]: [QuickShop] ·­Òë: Ghost_chu, Spongebob ºÍ WCZ
+[23:12:38] [Server thread/INFO]: [QuickShop] ·­Òë¹±Ï×Õß: Timtower, Netherfoam, KaiNoMood ºÍ Mgazul
+[23:12:38] [Server thread/INFO]: [QuickShop] ÓïÑÔµØÇø: English (en_US)
+[23:12:38] [Server thread/INFO]: [QuickShop] bStats module loaded.
+[23:12:38] [Server thread/INFO]: [QuickShop] Successfully loaded PlaceHolderAPI support!
+[23:12:38] [Server thread/INFO]: [QuickShop] Complete to load Itemname i18n.
+[23:12:38] [Server thread/INFO]: [QuickShop] Starting loading Enchantment i18n...
+[23:12:38] [Server thread/INFO]: [QuickShop] Complete to load enchname i18n.
+[23:12:38] [Server thread/INFO]: [QuickShop] Starting loading Potion i18n...
+[23:12:38] [Server thread/INFO]: [QuickShop] Complete to load potionname i18n.
+[23:12:39] [Server thread/INFO]: [QuickShop] Selected permission provider: Bukkit
+[23:12:39] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[23:12:39] [Server thread/INFO]: [QuickShop] Used 1ms to fetch all shops from the database.
+[23:12:39] [Server thread/INFO]: [QuickShop] Successfully loaded 1 shops! (Used 74ms, Avg 73ms per shop)
+[23:12:39] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[23:12:39] [Server thread/INFO]: [QuickShop] Registering Listeners...
+[23:12:39] [Server thread/INFO]: [QuickShop] Registering DisplayCheck task....
+[23:12:39] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
+[23:12:39] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
+[23:12:39] [Server thread/INFO]: [QuickShop] Registering UpdateWatcher...
+[23:12:39] [Server thread/INFO]: [QuickShop] Registering BStats Mertics...
+[23:12:39] [Server thread/INFO]: [QuickShop] Posting stats data...
+[23:12:39] [Server thread/INFO]: [QuickShop] Metrics submitted.
+[23:12:39] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 550 ms.
+[23:12:39] [Server thread/INFO]: [QuickShop] Log actions is enabled, actions will log in the qs.log file!
+[23:12:39] [Thread-11/INFO]: [QuickShop] Sending stats data...
+[23:12:39] [Server thread/INFO]: [Residence] Enabling Residence v4.8.7.4
+[23:12:40] [Server thread/INFO]: [Residence] Found Vault using permissions plugin:GroupManager
+[23:12:40] [Server thread/INFO]: [Residence] Scanning for economy systems...
+[23:12:40] [Server thread/INFO]: [Residence] Found Vault using economy system: Essentials Economy
+[23:12:41] [Server thread/INFO]: [Residence] Loading save data for world world...
+[23:12:41] [Server thread/INFO]: [Residence] Loaded world data. (4 ms)
+[23:12:41] [Server thread/INFO]: [Residence] Loading save data for world world_nether...
+[23:12:41] [Server thread/INFO]: [Residence] Loaded world_nether data. (0 ms)
+[23:12:41] [Server thread/INFO]: [Residence] Loading save data for world world_the_end...
+[23:12:41] [Server thread/INFO]: [Residence] Loaded world_the_end data. (0 ms)
+[23:12:41] [Server thread/INFO]: [Residence] Loading world data into memory...
+[23:12:41] [Server thread/INFO]: [Residence] Loaded world data into memory. (25 ms) -> 1 residences
+[23:12:41] [Server thread/INFO]: [Residence] Loading world_nether data into memory...
+[23:12:41] [Server thread/INFO]: [Residence] Loaded world_nether data into memory. (0 ms) -> 0 residences
+[23:12:41] [Server thread/INFO]: [Residence] Loading world_the_end data into memory...
+[23:12:41] [Server thread/INFO]: [Residence] Loaded world_the_end data into memory. (0 ms) -> 0 residences
+[23:12:41] [Server thread/INFO]: [Residence] WorldEdit NOT found!
+[23:12:41] [Server thread/INFO]: [Residence] PlaceholderAPI hooked.
+[23:12:41] [Server thread/INFO]: [Residence] PlaceholderAPI was found - Enabling capabilities.
+[23:12:41] [Server thread/INFO]: [Residence] Enabled! Version 4.8.7.4 by Zrips
+[23:12:41] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[23:12:41] [Server thread/INFO]: Done (27.817s)! For help, type "help"
+[23:12:41] [Server thread/INFO]: Timings Reset
+[23:12:41] [Server thread/INFO]: [GM+] [INFO] Bukkit Permissions Updated!
+[23:12:41] [Server thread/INFO]: [QuickShop] Using economy system: Essentials Economy
+[23:12:41] [Craft Scheduler Thread - 16/INFO]: [Vault] Checking for Updates ... 
+[23:12:42] [Craft Scheduler Thread - 16/INFO]: [Vault] There was an issue attempting to check for the latest version.
+[23:12:42] [Craft Scheduler Thread - 16/INFO]: [Vault] No new version available
+[23:12:43] [Craft Scheduler Thread - 15/INFO]: [QuickShop] A new version of QuickShop has been released!
+[23:12:43] [Craft Scheduler Thread - 15/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[23:13:09] [Craft Scheduler Thread - 5/INFO]: [PlaceholderAPI] 165 placeholder expansions are available on the cloud.
+[23:13:17] [Server thread/INFO]: Stopping the server
+[23:13:17] [Server thread/INFO]: Stopping server
+[23:13:17] [Server thread/INFO]: [Residence] Disabling Residence v4.8.7.4
+[23:13:17] [Server thread/INFO]: [Residence] Disabled!
+[23:13:17] [Server thread/INFO]: [QuickShop] Disabling QuickShop vReremake 2.4.8.4
+[23:13:17] [Server thread/INFO]: [QuickShop] QuickShop is finishing remaining work, this may need a while...
+[23:13:17] [Server thread/INFO]: [QuickShop] Please wait for the data to flush its data...
+[23:13:17] [Server thread/INFO]: [EssentialsAntiBuild] Disabling EssentialsAntiBuild v2.17.1.0
+[23:13:17] [Server thread/INFO]: [GroupManager] Disabling GroupManager v3.1
+[23:13:17] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[23:13:17] [Server thread/INFO]: [Vault] [Vault][Chat] GroupManager - Chat un-hooked.
+[23:13:17] [Server thread/INFO]: [GM+] [INFO] Scheduled Data Saving is disabled!
+[23:13:17] [Server thread/INFO]: GroupManager version 3.1 is disabled!
+[23:13:17] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.17.1.0
+[23:13:17] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.17.1.0
+[23:13:17] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.17.1.0
+[23:13:17] [Server thread/INFO]: [Essentials] Disabling Essentials v2.17.1.0
+[23:13:17] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy unhooked.
+[23:13:17] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.10.2
+[23:13:17] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v2.0.6
+[23:13:17] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[23:13:17] [Server thread/INFO]: [Vault] Disabling Vault v1.7.2-b107
+[23:13:17] [Server thread/INFO]: Saving players
+[23:13:17] [Server thread/INFO]: Saving worlds
+[23:13:17] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:13:17] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:13:17] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:13:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

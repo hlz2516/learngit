@@ -1,0 +1,18 @@
+#礼包名请不要超过10个字符
+测试小礼包:
+#礼包名
+  money: 10
+  #售价（元）
+  commands:
+    - 'minecraft:give {0} diamond 64'
+    - 'say {0}买了测试礼包'
+  #出售后执行的命令
+  desc: '这是一个示范礼包'
+  #显示在网页上的礼包信息
+测试大礼包:
+  money: 20
+  commands:
+    - 'minecraft:give {0} diamond 64'
+    - 'minecraft:give {0} diamond 64'
+    - 'say {0}买了测试礼包'
+  desc: '这是一个示范礼包，你可以在这里添加更多描述'

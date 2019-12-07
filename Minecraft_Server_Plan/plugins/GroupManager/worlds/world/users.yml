@@ -1,0 +1,11 @@
+users:
+  896da281-c327-398c-aa2c-298a8a0568c4:
+    lastname: hlz123
+    group: Owner
+    subgroups: []
+    permissions: []
+  example:
+    group: Builder
+    subgroups: []
+    permissions:
+    - example

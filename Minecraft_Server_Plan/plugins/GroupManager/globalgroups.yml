@@ -1,0 +1,461 @@
+#
+# GroupManager+ 
+# 	globalgroups.yml
+#
+# These groups only contain permission nodes.
+#
+# **** You can NOT add anything other than permission nodes ****
+# **** This is NOT where you set up the groups which you give to users! ****
+# **** goto groupmanager/worlds/worldname/groups.yml if you want to set the actual groups! ****
+#
+# These collections are to be inherited in your different worlds groups.yml's
+# They can also be added as one of a users subgroups, but NOT as a primary group.
+# These collections are available to ALL group and user yml's.
+#
+# Add to and customize these groups to fit your needs.
+
+groups:
+
+# Permission nodes for GroupManager
+# by ElgarL, snowleo, continued from gabrielcouto's original
+# http://wiki.ess3.net
+
+  g:groupmanager_default:
+    permissions:
+    - groupmanager.notify.self
+    #在你的排名改变时发出提示
+
+  g:groupmanager_moderator:
+    permissions:
+    
+
+  g:groupmanager_admin:
+    permissions:
+    - groupmanager.mantogglevalidate
+    - groupmanager.mansave
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+    - groupmanager.listgroups
+    #列出可用的组
+    - groupmanager.mandemote
+    #将一名玩家移动至当前组的其中一个父组（指定）
+    - groupmanager.manpromote
+    #将一名玩家移动至当前组的其中一个子组（指定）
+    - groupmanager.manselect
+    #选择一个世界以使用下一个命令。
+    - groupmanager.manuadd
+    #将玩家移至所需的组（如果不存在，则将其添加到文件中）。
+    - groupmanager.manudel
+    #删除任何用户特定的配置。 将他设为默认群组。
+    - groupmanager.manwhois
+    #说明该用户所属的组。
+    - groupmanager.notify.other
+    #在某人的等级发生变化时通知。
+    - groupmanager.manuaddsub
+    #将组添加到玩家的子组列表。
+    - groupmanager.manudelsub
+    #从玩家的子组列表中删除一个组。
+    - groupmanager.manuaddp
+    #直接向玩家添加权限
+    - groupmanager.manudelp
+    #直接指定玩家删除权限
+    - groupmanager.manulistp
+    #列出玩家的所有权限
+    - groupmanager.manucheckp
+    #验证用户是否具有权限以及权限来自何处
+    - groupmanager.mangadd
+    #将组添加到系统
+    - groupmanager.mangdel
+    #从系统中删除组（所有用户均成为默认用户）
+    - groupmanager.mangaddp
+    #向组添加权限
+    - groupmanager.mangdelp
+    #从群组中删除权限
+    - groupmanager.manglistp
+    #列出组中的所有权限
+    - groupmanager.mangcheckp
+    #检查组是否具有权限以及它来自何处
+
+# Permission nodes for CraftBukkit
+# by many devs and contributors
+# http://dl.bukkit.org/
+
+  g:bukkit_default:
+    permissions:
+    - bukkit.broadcast.user
+    #允许玩家接受来自玩家的广播信息。
+    - -bukkit.command.plugins
+    #允许玩家查看当前服务器安装的插件。
+  g:bukkit_moderator:
+    permissions:
+    
+
+  g:bukkit_admin:
+    permissions:
+    - bukkit.broadcast
+    - bukkit.broadcast.admin
+    - bukkit.command.give
+    - bukkit.command.help
+    - bukkit.command.kill
+    - bukkit.command.list
+    - bukkit.command.me
+    - -bukkit.command.op
+    - -bukkit.command.op.give
+    #可以给OP？无法，只能在owner组给
+    - -bukkit.command.op.take
+    - bukkit.command.plugins
+    - bukkit.command.reload
+    - bukkit.command.save
+    - bukkit.command.save.disable
+    - bukkit.command.save.enable
+    - bukkit.command.save.perform
+    - bukkit.command.say
+    - bukkit.command.stop
+    - bukkit.command.teleport
+    - bukkit.command.tell
+    - bukkit.command.time
+    - bukkit.command.time.add
+    - bukkit.command.time.set
+    - bukkit.command.version
+    - bukkit.command.whitelist
+    - bukkit.command.whitelist.add
+    - bukkit.command.whitelist.disable
+    - bukkit.command.whitelist.enable
+    - bukkit.command.whitelist.list
+    - bukkit.command.whitelist.reload
+    - bukkit.command.whitelist.remove
+    
+    - bukkit.command.ban
+    - bukkit.command.ban.ip
+    #ban-ip <IP地址> 封禁一个IP地址
+    - bukkit.command.ban.player
+    #ban <游戏ID> 封禁一个玩家
+    - bukkit.command.gamemode
+    #gamemode <0/1/2> <游戏ID>  
+    #更换游戏模式 0 = 生存模式, 1 = 创造模式, 2 = 冒险模式。
+    - bukkit.command.kick
+    #kick <游戏ID>  将一个玩家从服务器中移出 
+    - bukkit.command.unban
+    - bukkit.command.unban.ip
+    #pardon-ip <IP地址> 
+    #解除一个IP地址的封禁来让他们重新连接服务器 
+    - bukkit.command.unban.player
+    #pardon <游戏ID>
+    #解除一个玩家的封禁来让他们重新连接服务器
+
+# Permission nodes for Essentials
+# by ementalo, snowleo, and KHobbits
+# http://dev.bukkit.org/server-mods/essentials/
+
+  g:essentials_default:
+    permissions:
+    - essentials.help
+    - essentials.helpop
+    - essentials.list
+    - essentials.motd
+    #查看每日信息
+    - essentials.rules
+    #查看服务器规则
+    #- essentials.spawn
+    #传送到主城(玩家出生点150X150范围算主城，管理员可通过setspawn设置主城)
+    - essentials.jail.allow.help
+    #允许在监狱里使用指定的命令
+    - essentials.jail.allow.helpop
+    - essentials.jail.allow.rules
+
+  g:essentials_builder:
+    permissions:
+    - essentials.afk
+    #允许使用暂时离开命令
+    - essentials.afk.auto
+    #允许达到配置文件中设置的时间后进入afk状态 
+    #- essentials.back
+    #- essentials.back.ondeath
+    #返回到上一次死亡的位置
+    - essentials.keepxp
+    #防止在死亡中掉落经验
+    - essentials.balance
+    #- essentials.balance.others
+    - essentials.balancetop
+    #显示玩家经济排行耪
+    #- essentials.kit
+    #- essentials.kit.tools
+    - essentials.book
+    #允许你打开并编辑一本书
+    - essentials.chat.color
+    #允许在聊天时使用颜色代码 
+    - essentials.chat.format
+    #允许在聊天时使用格式代码
+    - essentials.chat.shout
+    #允许喊话
+    - essentials.chat.question
+    #允许提问 
+    - essentials.compass
+    #显示方向
+    - essentials.delhome
+    - essentials.depth
+    - essentials.exp
+    #查看一个玩家的经验值
+    - essentials.getpos
+    - essentials.pay
+    - essentials.home
+    - essentials.ignore
+    - essentials.itemdb
+    #搜索物品
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.msg.format
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    #- essentials.powertool
+    #绑定一个命令在你手上的物品
+    #- essentials.powertooltoggle
+    #打开或关闭powertool
+    - essentials.protect
+    #允许保护牌子和其附着的方块 
+    - essentials.recipe
+    #查看怎么去合成一个物品
+    - essentials.seen
+    #查看一个玩家最后的下线时间及地点
+    - essentials.sethome
+    - essentials.sethome.bed
+    - essentials.sethome.multiple
+    - essentials.signs.use.*
+    #允许使用各种牌子
+    - essentials.signs.create.disposal
+    #允许创建各种牌子，下面create.后面的都是
+    - essentials.signs.create.mail
+    - essentials.signs.create.protection
+    - essentials.signs.create.trade
+    - essentials.signs.break.disposal
+    #允许破坏各种牌子，下面break.后面的都是
+    - essentials.signs.break.mail
+    - essentials.signs.break.protection
+    - essentials.signs.break.trade
+    - essentials.suicide
+    - essentials.time
+    #- essentials.tpa
+    #- essentials.tpaccept
+    #- essentials.tpahere
+    #- essentials.tpdeny
+    #普通玩家不允许TP
+    #- essentials.warp
+    #- essentials.warp.list
+    #普通玩家没有坐标点
+    - essentials.worth
+    #查看一个物品的价格
+    - essentials.jail.allow.mail
+    - essentials.jail.allow.ping
+    - essentials.jail.allow.seen
+    
+    - quickshop.use
+    #允许使用各种商店
+    - quickshop.create.sell
+    #制作QuickShop所需（完全）
+    - quickshop.create.buy
+    #需要使用/ qs buy（从“ Sell-> Buy”更改商店类型）
+    - quickshop.create.changeprice
+    #允许玩家更改自己商店的价格
+    - quickshop.create.double
+    #需要开设双层商店
+    - quickshop.create.cmd
+    #需要使用/ qs create来创建商店。（不建议，可能会通过一些保护插件的保护）
+    - quickshop.find
+    #需要使用/ qs find <item>
+    - quickshop.fetchmessage
+    #需要使用/ qs fetchmessage
+    - quickshop.staff
+    #Required to use /qs staff
+    - quickshop.preview
+    #使用GUI项目预览所需
+    
+  g:essentials_moderator:
+    permissions:
+    - -essentials.spawner.enderdragon
+    - essentials.afk.kickexempt
+    - essentials.ban
+    - essentials.ban.notify
+    - essentials.banip
+    - essentials.book.title
+    - essentials.book.others
+    - essentials.broadcast
+    - essentials.chat.url
+    - essentials.chat.magic
+    - essentials.clearinventory
+    - essentials.delwarp
+    - essentials.eco.loan
+    - essentials.exp.others
+    - essentials.ext
+    - essentials.fly
+    - essentials.fly.safelogin
+    - essentials.getpos
+    - essentials.getpos.others
+    - essentials.helpop.receive
+    - essentials.home.others
+    - essentials.invsee
+    - essentials.jails
+    - essentials.jump
+    - essentials.kick
+    - essentials.kick.notify
+    - essentials.kill
+    - essentials.kits.*
+    - essentials.msg.magic
+    - essentials.mute
+    - essentials.mute.notify
+    - essentials.nick.color
+    - essentials.nick.others
+    - essentials.realname
+    - essentials.seen.banreason
+    - essentials.seen.extra
+    - essentials.setwarp
+    - essentials.signs.create.*
+    - essentials.signs.break.*
+    - essentials.spawner
+    - essentials.spawner.*
+    - essentials.thunder
+    - essentials.time
+    - essentials.time.set
+    - essentials.protect.alerts
+    - essentials.protect.admin
+    - essentials.protect.ownerinfo
+    - essentials.ptime
+    - essentials.ptime.others
+    - essentials.togglejail
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tphere
+    - essentials.tppos
+    - essentials.tptoggle
+    - essentials.unban
+    - essentials.unbanip
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.warps.*
+    - essentials.weather
+    - essentials.whois
+    - essentials.workbench
+    - essentials.world
+    - essentials.worlds.*
+    - essentials.jail.allow.jails
+    - essentials.jail.allow.togglejail
+
+  g:essentials_admin:
+    permissions:
+    - -essentials.backup
+    - -essentials.essentials
+    - -essentials.setspawn
+    - -essentials.reloadall
+    - -essentials.plugin
+    - essentials.*
+    #ess所有命令均可用？是的
+    - quickshop.unlimited
+    #Required to use /quickshop unlimited
+    - quickshop.setowner
+    #Allows use of /qs setowner
+    - quickshop.other.destroy
+    #如果其他人被此插件锁定，则允许破坏其他人的QuickShops
+    - quickshop.other.open
+    #允许打开（和偷窃/放养）其他玩家QuickShops
+    - quickshop.other.price
+    #允许更改其他人商店的价格
+    - quickshop.refill
+    #能够使用命令来填充箱子（=无限的物品）
+    - quickshop.empty
+    #能够清空所有物品的箱子
+    - quickshop.clean
+    #允许清除所有库存为0的商店。
+    - quickshop.bypass.<ItemID>
+    #必须出售列入黑名单的物品（例如基岩）
+    - quickshop.alerts
+    #接收作弊警报，插件警告和更新通知。
+    - quickshop.info
+    #Required to use /qs info
+    - quickshop.debug
+    #Required to use /qs debug
+    - quickshop.paste
+    #Required to use /qs paste
+    - quickshop.create.admin
+    #需要使用/qs supercreate创建商店。
+    - quickshop.tax
+    #允许绕开税费。
+    - quickshop.cleanghost
+    #使用/ qs cleanghost的权限
+
+# Permission nodes for Towny by ElgarL
+# http://dev.bukkit.org/server-mods/towny-advanced/
+
+  g:towny_default:
+    permissions:
+    - towny.chat.local
+
+  g:towny_builder:
+    permissions:
+    - towny.wild.build.6
+    - towny.wild.destroy.6
+    - towny.wild.destroy.14
+    - towny.wild.destroy.15
+    - towny.wild.destroy.16
+    - towny.wild.build.17
+    - towny.wild.destroy.17
+    - towny.wild.destroy.18
+    - towny.wild.destroy.21
+    - towny.wild.destroy.31
+    - towny.wild.destroy.37
+    - towny.wild.destroy.38
+    - towny.wild.destroy.39
+    - towny.wild.destroy.40
+    - towny.wild.destroy.50
+    - towny.wild.destroy.56
+    - towny.wild.destroy.73
+    - towny.wild.destroy.74
+    - towny.wild.destroy.78
+    - towny.wild.destroy.81
+    - towny.wild.destroy.82
+    - towny.wild.destroy.83
+    - towny.wild.destroy.86
+    - towny.wild.destroy.103
+    - towny.wild.destroy.106
+    - towny.wild.destroy.111
+    - towny.wild.destroy.115
+
+  g:towny_moderator:
+    permissions:
+    - towny.chat.mod
+    - towny.wild.switch.64
+    - towny.wild.build.83
+    - towny.wild.build.86
+    - towny.wild.build.103
+    - towny.wild.build.111
+    - towny.wild.build.115
+
+  g:towny_admin:
+    permissions:
+    - towny.admin
+    - -towny.wild.destroy.119
+    - -towny.wild.destroy.120
+    - towny.chat.admin
+
+# Permission nodes for VanishNoPacket by mbaxter
+# http://dev.bukkit.org/server-mods/vanish/
+
+  g:vanish_moderator:
+    permissions:
+    - -vanish.*
+    - vanish.vanish
+    - vanish.smokin
+    - vanish.nofollow
+    - vanish.nopickup
+    - vanish.preventincomingdamage
+    - vanish.hooks.dynmap.alwayshidden
+    - vanish.hooks.essentials.hide
+
+  g:vanish_admin:
+    permissions:
+    - vanish.silentjoin
+    - vanish.silentquit
+    - vanish.silentchests

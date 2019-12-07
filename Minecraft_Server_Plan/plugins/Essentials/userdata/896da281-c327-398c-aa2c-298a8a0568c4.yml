@@ -1,0 +1,31 @@
+lastAccountName: hlz123
+timestamps:
+  login: 1575120588821
+  logout: 1575120894858
+  lastteleport: 1574771046691
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 169.47058038740442
+  y: 66.0
+  z: 249.27136992944568
+  yaw: 52.753174
+  pitch: 11.250887
+lastlocation:
+  world: world
+  x: 170.32148680515263
+  y: 66.0
+  z: 248.41557858572975
+  yaw: 64.949684
+  pitch: 9.74988
+afk: false
+homes:
+  myhome:
+    world: world
+    x: 169.18997336691334
+    y: 66.0
+    z: 249.04656861385942
+    yaw: 94.350555
+    pitch: 16.499958
+powertools: {}
+money: '36678.0'

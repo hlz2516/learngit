@@ -1,0 +1,55 @@
+#GUI贴图地址
+gui: "[local]gui.png"
+#GUI的x坐标
+x: -1
+#GUI的y坐标
+y: -1
+#GUI的宽度
+w: 200
+#GUI的高度
+h: 130
+#GUI的显示宽度
+xs: 200
+#GUI的显示高度
+ys: 130
+#GUI的组件列表, 一个不能少, 只能修改大小
+Components:
+  yes:
+    type: "button"
+    url1: "[local]button.png"
+    url2: "[local]button_.png"
+    name: "确认支付"
+    x: 25
+    y: 95
+    w: 60
+    h: 23
+    #不可修改
+    id: 103
+  quit:
+    type: "button"
+    url1: "[local]button.png"
+    url2: "[local]button_.png"
+    name: "取消"
+    x: 110
+    y: 95
+    w: 60
+    h: 23
+    #不可修改
+    id: 104
+  title:
+    type: "text"
+    x: 50
+    y: 10
+    contents:
+      - "&l测试服务器在线充值"
+  pricetext:
+    type: "text"
+    x: 20
+    y: 25
+    contents:
+      - "&f    订单号: &7%order%"
+      - "&f  下单时间: &7%create_time%"
+      - "&f  充值金额: &7%money%"
+      - "&f  支付方式: &7%type%"
+      - "&f充值服务器: &7%server%"
+      - "&f  充值账号: &7%user%"

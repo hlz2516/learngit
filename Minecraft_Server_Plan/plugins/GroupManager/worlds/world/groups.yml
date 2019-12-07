@@ -1,0 +1,119 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Moderator:
+    default: false
+    permissions: []
+    inheritance:
+    - VIP_Builder
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    - g:vanish_moderator
+    info:
+      build: true
+      prefix: '&5'
+      suffix: ''
+  Owner:
+  #服主
+    default: false
+    permissions:
+    - -vanish.*
+    - '*'
+    inheritance:
+    - admin
+    info:
+      build: true
+      prefix: '&4'
+      suffix: ''
+  Builder:
+  #普通玩家组
+    default: true
+    permissions:
+    - essentials.build
+    - essentials.home.bed
+    - essentials.info
+    - essentials.near
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&2'
+      suffix: ''
+  VIP_Builder:
+  #VIP玩家组
+    default: false
+    permissions:
+    - essentials.balance.others
+    - essentials.hat
+    - essentials.sell
+    - essentials.sell.*
+    - essentials.getpos.others
+    - essentials.powertool
+    - essentials.powertooltoggle
+    - essentials.realname
+    - essentials.ext
+    - essentials.fireball
+    - essentials.vanish
+    - essentials.vanish.effect
+    - essentials.spawn
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpdeny
+    - essentials.tpahere
+    - essentials.tpacancel
+    - essentials.setwarp
+    - essentials.tppos
+    - essentials.warp
+    - essentials.warps.[warpname]
+    - essentials.delwarp
+    - essentials.warp.list
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.[set name]
+    inheritance:
+    - Builder
+    info:
+      build: true
+      prefix: '&6'
+      suffix: ''
+  Admin:
+  #管理员组
+    default: false
+    permissions: []
+    inheritance:
+    - moderator
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
+    info:
+      build: true
+      prefix: '&c'
+      suffix: ''
+  Default:
+    default: false
+    permissions:
+    - -bukkit.command.kill
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      build: false
+      prefix: '&e'
+      suffix: ''

@@ -1,0 +1,22 @@
+lastAccountName: hlz
+timestamps:
+  login: 1575120961445
+  logout: 1575121061611
+  lastteleport: 1574770944538
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 169.9239155226899
+  y: 67.0
+  z: 256.4451034828346
+  yaw: -258.6004
+  pitch: 17.69954
+afk: false
+lastlocation:
+  world: world
+  x: 171.27343758191765
+  y: 67.0
+  z: 255.85843909157776
+  yaw: 98.39829
+  pitch: 13.649607
+money: '6.0'

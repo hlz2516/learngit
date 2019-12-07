@@ -1,0 +1,19 @@
+prefix: '§bVexRMB §f// '
+
+command:
+  unorder: '§c你目前没有订单!'
+  amountNumeric: '§c充值金额必须是一个正确的数字！'
+  amountIncorrect: '§c充值金额必须 大于 1元 且 小于 3000元！'
+  notprocessed: '§a你还有未处理完的订单'
+  enterordernumber: '§c请输入订单号!'
+  nopayment: '§c请选择一个支付方式!'
+  kitNotFound: '§c未找到该礼包'
+map:
+  create: ' create <金额> <W/Q/A> [玩家名] §f#创建 微信/QQ/支付宝(暂未完成) 支付订单'
+  kit: ' kit <礼包名> <W/Q/A> [玩家名] §f#创建 微信/QQ/支付宝(暂未完成) 礼包订单'
+  creating: '§e正在创建地图二维码, 请等待...'
+  generate: '§e请扫描地图上的二维码，支付完成后，你可以等待1分钟，直到地图自动关闭，充值到账。亦或右键关闭地图等待充值到账。'
+vexview:
+  creating: '§e正在创建订单, 请等待...'
+  created: '§e订单创建完成, 请在界面操作!'
+  canceled: '§c已取消订单!'

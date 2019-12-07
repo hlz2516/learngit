@@ -1,0 +1,15 @@
+[2019-11-28 11:49:13.918] Player hlz123 created a shop at location Location{world=CraftWorld{name=world},x=168.0,y=66.0,z=247.0,pitch=0.0,yaw=0.0}
+[2019-11-28 11:49:13.918] Player hlz123 created a shop at location Location{world=CraftWorld{name=world},x=168.0,y=66.0,z=247.0,pitch=0.0,yaw=0.0}
+[2019-11-28 21:47:15.74] Player hlz purchased hlz123 shop Shop world(168, 66, 247) Owner: hlz123 - 896da281-c327-398c-aa2c-298a8a0568c4 Price: 3.0 Item: ItemStack{BEEF x 1} for items x1 for $2.84 ($0.05 tax).
+[2019-11-28 21:52:36.134] Player hlz purchased hlz123 shop Shop world(168, 66, 247) Owner: hlz123 - 896da281-c327-398c-aa2c-298a8a0568c4 Price: 3.0 Item: ItemStack{BEEF x 1} for items x1 for $2.84 ($0.05 tax).
+[2019-11-28 21:56:57.593] Player hlz created a shop at location Location{world=CraftWorld{name=world},x=167.0,y=66.0,z=251.0,pitch=0.0,yaw=0.0}
+[2019-11-28 21:56:57.593] Player hlz created a shop at location Location{world=CraftWorld{name=world},x=167.0,y=66.0,z=251.0,pitch=0.0,yaw=0.0}
+[2019-11-28 21:57:32.169] Shop at Location{world=CraftWorld{name=world},x=167.0,y=66.0,z=251.0,pitch=0.0,yaw=0.0} was removed.
+[2019-11-28 22:33:18.175] Player hlz123 created a shop at location Location{world=CraftWorld{name=world},x=167.0,y=66.0,z=251.0,pitch=0.0,yaw=0.0}
+[2019-11-28 22:33:18.176] Player hlz123 created a shop at location Location{world=CraftWorld{name=world},x=167.0,y=66.0,z=251.0,pitch=0.0,yaw=0.0}
+[2019-11-30 20:32:24.885] Player hlz created a shop at location Location{world=CraftWorld{name=world},x=171.0,y=67.0,z=255.0,pitch=0.0,yaw=0.0}
+[2019-11-30 20:32:24.885] Player hlz created a shop at location Location{world=CraftWorld{name=world},x=171.0,y=67.0,z=255.0,pitch=0.0,yaw=0.0}
+[2019-11-30 20:34:19.371] Player hlz123 purchased hlz shop Shop world(171, 67, 255) Owner: hlz - e179fd1a-0560-3875-85f9-7bc5b19bbc3c Price: 3.0 Item: ItemStack{BEEF x 1} for items x2 for $6 ($0 tax).
+[2019-11-30 20:38:15.566] Shop at location Location{world=CraftWorld{name=world},x=171.0,y=67.0,z=255.0,pitch=0.0,yaw=0.0} price was changed from 3.0 to 5.0
+[2019-11-30 20:44:55.897] Shop at Location{world=CraftWorld{name=world},x=171.0,y=67.0,z=255.0,pitch=0.0,yaw=0.0} was removed.
+[2019-11-30 21:00:02.616] Shop at Location{world=CraftWorld{name=world},x=168.0,y=66.0,z=247.0,pitch=0.0,yaw=0.0} was removed.

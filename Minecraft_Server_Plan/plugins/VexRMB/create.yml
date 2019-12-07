@@ -1,0 +1,104 @@
+#GUI贴图地址
+gui: "[local]gui.png"
+#GUI的x坐标
+x: -1
+#GUI的y坐标
+y: -1
+#GUI的宽度
+w: 240
+#GUI的高度
+h: 150
+#GUI的显示宽度
+xs: 240
+#GUI的显示高度
+ys: 150
+#GUI的组件列表, 一个不能少, 只能修改大小
+Components:
+  yes:
+    type: "button"
+    url1: "[local]button.png"
+    url2: "[local]button_.png"
+    name: "确认充值"
+    x: 30
+    y: 110
+    w: 60
+    h: 23
+    #不可修改
+    id: 101
+  quit:
+    type: "button"
+    url1: "[local]button.png"
+    url2: "[local]button_.png"
+    name: "取消"
+    x: 130
+    y: 110
+    w: 60
+    h: 23
+    #不可修改
+    id: 102
+  title:
+    type: "text"
+    x: 70
+    y: 10
+    contents:
+      - "&l测试服务器在线充值"
+  playername:
+    type: "text"
+    x: 20
+    y: 30
+    contents:
+      - "&a&l玩家名: &b%player%"
+  pricetext:
+    type: "text"
+    x: 20
+    y: 52
+    contents:
+      - "&a&l充值金额:"
+  paytype:
+    type: "text"
+    x: 20
+    y: 74
+    contents:
+      - "&a&l充值方式:"
+  price:
+    type: "textfield"
+    x: 70
+    y: 50
+    w: 50
+    h: 12
+    maxString: 15
+    #不可修改
+    id: 50
+  wx:
+    type: "checkbox"
+    x: 68
+    y: 70
+    w: 50
+    h: 20
+    url1: "[local]wechat.png"
+    url2: "[local]wechat_.png"
+    default: true
+    #不可修改
+    id: 10
+  alipay:
+    type: "checkbox"
+    x: 120
+    y: 70
+    w: 50
+    h: 20
+    url1: "[local]zfb.png"
+    url2: "[local]zfb_.png"
+    default: false
+    #不可修改
+    id: 11
+  qq:
+    type: "checkbox"
+    x: 172
+    y: 70
+    w: 50
+    h: 20
+    url1: "[local]QQ.png"
+    url2: "[local]QQ_.png"
+    default: false
+    #不可修改
+    id: 12

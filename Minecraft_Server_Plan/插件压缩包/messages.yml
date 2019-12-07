@@ -1,0 +1,237 @@
+# Colors:
+# &0-9, &a-f
+# {0}, {1}, {2}, etc are variables. You can swap them around, but adding a new variable won't work. Removing them will work
+# 
+# Translate data.
+# ======================================================================
+# For Translator: These string can changed by your self.
+translation-author: '§c§l翻译: §b§lGhost_chu, Spongebob 和 WCZ'
+translation-contributors: '§c§l翻译贡献者: §b§lTimtower, Netherfoam, KaiNoMood 和 Mgazul'
+translation-version: '§c§l支持版本: §b§lReremake 1.4.3.5'
+translation-country: '§c§l语言地区: §b§lEnglish (en_US)'
+break-shop-use-supertool: §e你使用超级工具破坏了商店.
+tabcomplete:
+  price: '[price]'
+  range: '[range]'
+  amount: '[amount]'
+language-author: '§c§l文本作者: §b§lGhost_chu 和 Fu_Meng'
+language-contributors: '§c§l文本贡献者: §b§lTimtower, Netherfoam, KaiNoMood 和 Mgazul'
+language-country: '§c§l文本地区: §b§lSimplified Chinese (zh_CN)'
+language-version: '24'
+not-looking-at-shop: §c错误操作,请手持物品并将准星对准箱子.
+no-anythings-in-your-hand: §c错误操作,请手持物品.
+no-permission: §c你没有该操作的权限.
+no-creative-break: §c你不能在创造模式下破坏他人的商店.  使用生存模式或者超级工具 ({0}) 拉力破坏.
+no-double-chests: §c你没有权限创造建大箱子商店.
+shop-already-owned: §c这已经是一个商店了.
+chest-was-removed: §c箱子已被删除.
+price-too-cheap: §c操作失败,定价必须大于§e$0.01
+no-price-change: §c操作失败,价格没有发生变化
+you-cant-afford-a-new-shop: §c你的账户余额不足以创建商店,创建商店需要{0}.
+player-bought-from-your-store-tax: §c玩家{0}从你的商店{1}购买了{2},你缴纳税金{3}.
+you-cant-afford-to-change-price: §c余额不足,改变商店价格需要支付{0}.
+success-created-shop: §a商店创建成功.
+success-removed-shop: §a商店移除成功
+shops-arent-locked: §c注意,此商店目前没有任何防盗功能,如果你想防止你的商店被盗窃,请使用LWC或Lockette等等…
+shop-creation-cancelled: §c已取消创建商店.
+shop-purchase-cancelled: §c已取消购买.
+shop-stock-too-low: §c购买失败,该商店的§e{1}§c库存不足,剩余库存:{0}.
+you-cant-afford-to-buy: §c需要花费{0}, 但是你只有{1}
+negative-amount: §c不可以输入负数！
+not-a-number: §c只能是数字，但你可以输入{0}
+not-a-integer: §c只能是整数，但你可以输入{0}
+player-bought-from-your-store: §c{0}从你的商店购买了{1}个{2}.
+shop-out-of-stock: §c你的商店：{0}, {1}, {2},已经卖完了{3}.
+shop-has-no-space: §c售出§e{1}§c失败,商店空间不足，剩余空间:§a{0}.
+you-dont-have-that-many-items: §c背包没有足够的物品,你只有§a{0}§c个§e{1}.
+the-owner-cant-afford-to-buy-from-you: §c售出失败, 店主账户余额不足。
+player-sold-to-your-store: §a{0}卖掉{1}个{2}到你的商店.
+shop-out-of-space: §5收购商店：{0}, {1}, {2}, 空间已满，请及时清理.
+fee-charged-for-price-change: '§a物品价格已变更，费用: {0}.'
+price-is-now: §a当前商品单价：§e{0}
+thats-not-a-number: §c错误的数字
+no-price-given: §c请输入一个有效的价格.
+average-price-nearby: '§a平均附近的价格: §e{0}'
+shop-has-changed: §c你点击的商店已经改变!
+shop-not-exist: §c那里没有商店.
+nearby-shop-this-way: §a最近的商店距离你{0}格.
+no-nearby-shop: §c附近{0}格没有商店.
+buying-more-than-selling: '§c警告: 你买的数量比卖的多!'
+not-enough-space: §c背包空间不足,无法购买,你可以购买{0}个!
+refill-success: §a填充成功
+empty-success: §a清空成功
+admin-shop: 系统商店
+unknown-owner: 未知店主
+owner-bypass-check: §e跳过所有检查，成功交易! (你是店主)
+reached-maximum-can-create: §c您已经创建了所能创建的最多 {0}/{1} 商店!
+restricted-prices: '§c限制价格 {0}: 最低 {1} , 最高 {2}'
+no-enough-money-to-keep-shops: §c你已经没有钱来经营你的商店！已删除所有商店...
+nothing-to-flush: §a你没有新的商店消息.
+break-shop-use-supertool: §e您可以使用超极工具破坏商店。
+failed-to-put-sign: §c商店周围没有足够的空间放置信息标牌。
+failed-to-paste: §c无法将数据上传到Pastebin，检查您的互联网再试一次。 
+（有关详细信息，请参见控制台）
+warn-to-paste: §eCollecting data and uploading it to Pastebin, this may take a while.
+  §c§lWarning§c, The data is kept public for one week, it may leak your server configuration
+  and other sensitive information, make sure you only send it to your §ltrusted staff/developer.
+price-too-high: §c 商品价格过高！你无法创建比{0}价格更高的商品。
+menu:purchase
+  successful-purchase: '§a已购买:'
+  successfully-sold: '§a已售出:'
+  item-name-and-price: §e{0}个{1} §a资金变动：§e{2}§e
+  sell-tax: §a你上缴了 §e{0} §a的税金.
+  sell-tax-self: §a你拥有这家商店,所以你不用交税.
+  enchants: §5附魔
+  stored-enchants: §5附魔
+  shop-information: '§c[商店信息]:'
+  owner: '§a店主: §e{0}'
+  item: '§a物品: §e{0}'
+  preview: §b[预览物品]
+  space: '§a空间: §e{0}'
+  stock: '§a库存: §e{0}'
+  price-per: '§a单价: §e{1}'
+  total-value-of-chest: '§a所有存货总价格: §c{0}'
+  damage-percent-remaining: '§a耐久: §e{0}%.'
+  this-shop-is-buying: '§a类型: §e收购'
+  this-shop-is-selling: '§a类型: §e出售'
+  effects: '§a物品: §e{0}'
+  commands:
+    preview: /qs silentpreview {0} {1} {2} {3}
+bypassing-lock: §c你绕开了商店锁!
+that-is-locked: §c这个商店已经上锁了.
+how-many-buy: §a按§cT键§a打开聊天窗输入你要§e购买§a的数量，然后按§c回车键§a确定§e购买
+how-many-sell: §a按§cT键§a打开聊天窗输入你要§e出售§a的数量，然后按&回车键§a确定§e出售
+not-allowed-to-create: §c你无法在这里创建商店.
+blacklisted-item: §c这个物品禁止销售
+how-much-to-trade-for: §a按§cT§a打开§c聊天窗§a输入§e{0}§a的价格,按下§c回车键§a确定.
+command:
+  toggle-unlimited:
+    unlimited: §a现在商店无限制
+    limited: §a现在商店被限制
+  now-debuging: §a成功切换到开发人员模式, 正在重装 QuickShop...
+  now-nolonger-debuging: §a成功切换到生产制造模式, 正在重载 QuickShop...
+  toggle-unlimited: §a商店现在 {0}
+  no-owner-given: §c此商店没有所有者. 使用§a/qs owner <player>§c
+  new-owner: '§a新的所有者: §e{0}'
+  now-buying: §a商店类型更改为§d收购
+  now-selling: §a商店类型更改为§d出售
+  cleaning: §a正在清理0库存的商店
+  reloading: §a插件重读...
+  cleaned: §a清除了§e{0}§a个商店
+  no-type-given: '§c格式: /qs find <item>'
+  no-amount-given: §c参数不足. 使用 §a/qs refill <数量>§c来填充
+  description:
+    info: §e显示Quickshop统计信息
+    title: §a商店使用帮助
+    unlimited: §e创建一个无限商店(系统商店)
+    setowner: §e改变商店的拥有者
+    owner: §e改变谁拥有商店
+    buy: §e将商店改为§b收购§e类型
+    sell: §e将改商店改为§b出售§e类型
+    clean: §e清除所有0库存的商店
+    price: §e修改你一个商店的购买/出售的价格
+    find: §e查找附近的一个明确类型的商店.
+    reload: §e重读quickshop配置文件
+    refill: §e给一个商店加入指定物品数量的商品
+    empty: §e清空一个商店的所有物品
+    create: §e对着箱子创建一个新的商店
+    debug: §e切换开发者调试模式
+    fetchmessage: §e刷新未读的商店信息
+    paste: §e自动将服务器数据上载到Pastebin
+    staff: §e管理你的店员
+    remove: §e删除你正在看的商店 
+    amount: §e用金额执行您的操作（针对聊天插件问题）
+    about: §e显示快捷商店有关信息
+    help: §e显示快捷商店有关帮助
+    supercreate: §e创建商店绕过所有保护检查
+  success-created-unlimited: §a无限商店创建成功!
+  no-target-given: '§c使用: /qs export mysql|sqlite'
+  wrong-args: §c参数不匹配, 使用 /qs help 去检查帮助
+signs:
+  header: §c{0}
+  selling: §2出售 §r库存:{0}
+  buying: §5收购 §r库存:{0}
+  item: '{0}'
+  price: '单价: §l{0}'
+  unlimited: 无限
+controlpanel:
+  infomation: '§a商店控制面板:'
+  setowner: '§a所有者: §b{0} §e[§d§l修改§e]'
+  setowner-hover: §e点击来切换你正在看着的商店的所有者.
+  unlimited: '§a无限商店: {0} §e[§d§l切换§e]'
+  unlimited-hover: §e点击来切换你正在看着的商店是否使用无限库存模式.
+  mode-selling: '§a商店模式: §b出售中 §e[§d§l切换§e]'
+  mode-selling-hover: §e点击来切换你正在看着的商店收购/出售模式.
+  mode-buying: '§a商店模式: §b收购中 §e[§d§l切换§e]'
+  mode-buying-hover: §e点击来切换你正在看着的商店收购/出售模式.
+  price: '§a价格: §b{0} §e[§d§l设置§e]'
+  price-hover: §e点击来切换你正在看着的商店的价格.
+  refill: '§a装填: 填满这个商店的货物 §e[§d§l执行§e]'
+  refill-hover: §e点击来填充你正在看着的商店的库存.
+  empty: '§a清空: 清空此商店的所有货物 §e[§d§l执行§e]'
+  empty-hover: §e点击来清空你正在看着的商店的库存.
+  remove: §c§l[移除商店]
+  remove-hover: §e点击移除这个商店.
+  commands:
+    setowner: /qs owner [玩家名]
+    unlimited: /qs slientunlimited {0} {1} {2} {3}
+    buy: /qs silentbuy {0} {1} {2} {3}
+    sell: /qs silentsell {0} {1} {2} {3}
+    price: /qs price [新的价格]
+    refill: /qs refill [数量]
+    empty: /qs silentempty {0} {1} {2} {3}
+    remove: /qs silentremove {0} {1} {2} {3}
+failed-to-put-sign: §c箱子周围没有足够的位置来放置商店的牌子.
+failed-to-paste: §c未能将数据上载到Pastebin, 请检查网络并重试. (有关详细信息，请查看控制台)
+warn-to-paste: §e收集数据并上传到Pastebin，这可能需要一段时间. §c§l警告§c, 数据将持续公开一周, 它可能会泄漏您的服务器配置, 确保你只发给你信任的
+  §l开发者/员工.
+tableformat:
+  full_line: +---------------------------------------------------+
+  left_half_line: +--------------------
+  right_half_line: '--------------------+'
+  left_begin: '| '
+booleanformat:
+  success: §a✔
+  failed: §c✘
+tabcomplete:
+  price: '[price]'
+  range: '[range]'
+  amount: '[amount]'
+price-too-high: §c商店价格太高! 你不能创建高于 {0} 元的商店.
+unknown-player: §c目标玩家不存在, 请检查你输入的用户名是否正确.
+shop-staff-cleared: §a成功删除你的商店的所有助手.
+shop-staff-added: §a成功添加 {0} 到你的商店助手.
+shop-staff-deleted: §a成功删除 {0} 为你的商店助手.
+no-permission-build: §c你不能在这里建造商店.
+success-change-owner-to-server: §a成功设置商店的所有者为服务器.
+updatenotify:
+  buttontitle: '[Update Now]'
+  onekeybuttontitle: '[OneKey Update]'
+  list: '[{0} is released, You are still using {1}!, Boom! New update {0} incoming,
+    Update!, Surprise! {0} came out, you are on {1}, Looks like you need to update,
+    {0} is released!, Ooops! {0} is now released, you are on {1}!, I promise, QS has
+    been updated to {0}, why have you not updated?, Fixing and re... Sorry {0} is
+    released!, Err! Nope, this is not an error, {0} has just been released!, OMG!
+    {0} came out! Why are you still using {1}?, Todays News: QuickShop has been updated
+    to {0}!, Plugin K.I.A, You should update to {0}!, Fuze is fuzeing update {0},
+    save update!, There is an update commander, {0} has just come out!, Look me style---{0}
+    updated, your still using {1}, Ahhhhhhh! New update {0}! Update!, What U thinking?
+    {0} has been released! Update!]'
+  remote-disable-warning: '§cThis version of QuickShop is marked disabled by remote
+    server, that mean this version may have serious problem, get details from our
+    SpigotMC page: {0}. This warning will appear and spam your console until you use
+    other not disabled version to replace this one, doesn''t effect your server running.'
+  label:
+    unstable: '[Unstable]'
+    stable: '[Stable]'
+    lts: '[LTS]'
+    qualityverifyed: '[Quality]'
+    github: '[Github]'
+    spigotmc: '[SpigotMC]'
+    bukkitdev: '[BukkitDev]'
+you-cant-create-shop-in-there: §c你没有权限在这个位置创建商店.
+flush-finished: §a成功刷新信息.
+purchase-failed: '§c购买失败：内部错误，请与服务器管理员联系.'
+no-pending-action: §c您没有任何待处理的动作
+permission-denied-3rd-party: '§c权限拒绝: 3rd party plugin [{0}].'
+shop-removed-cause-ongoing-fee: §c你在{0}的商店已被删除因为你没有足够的钱来保留它。
