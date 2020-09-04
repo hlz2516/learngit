@@ -1,0 +1,13 @@
+﻿@using StudentManagement
+@model StudentManagement.ViewModels.HomeDetailsViewModel
+@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "学生信息";
+}
+@Model.Title
+<br />
+班级：@Model.Student.ClassName
+<br />
+名字：@Model.Student.Name
+<br />
+邮箱：@Model.Student.Email

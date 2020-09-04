@@ -1,0 +1,30 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model StudentManagement.ViewModels.Files
+
+<form enctype="multipart/form-data" action="/File/Upload" method="post">
+    选择文件进行上传: <input type="file" id="file" name="file" value="" />
+    <input type="submit" name="" value="上传" />
+</form>
+
+<br />
+
+<form enctype="multipart/form-data" action="/File/Uploads" method="post">
+    选择文件进行上传: <input type="file" id="file" name="file" value="" multiple="multiple" />
+    <input type="submit" name="" value="上传" />
+</form>
+
+<form enctype="multipart/form-data" asp-controller="File" asp-action="BigFileUpload" method="post">
+    <div>
+        <p>Upload one or more files using this form:</p>
+        <input type="file" name="files" multiple />
+    </div>
+    <div>
+        <p>Your Username</p>
+        <input type="text" name="username" />
+    </div>
+    <div>
+        <input type="submit" value="Upload" />
+    </div>
+</form>
